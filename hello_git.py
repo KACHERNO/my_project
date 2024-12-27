@@ -20,4 +20,5 @@ print(os.getcwd())
 s = 'Version Control System'
 print(f'{s} - length is {len(s)} characters')
 print('Hi from GitHub')
+print('Hi from Home')
 
