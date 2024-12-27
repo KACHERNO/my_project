@@ -1,4 +1,15 @@
+import b
+
 print('Hello GIT !!!')
 print("Indexing - it is important !!!")
-print('Create new branch')
-print('Create new branch testing')
+
+
+ind = 0
+sum = 0
+
+while ind <= 9:
+        sum += ind
+        print(sum)
+        ind += 1
+
+print(b.any_func(2, sum))
