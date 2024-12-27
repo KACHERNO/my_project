@@ -1,3 +1,4 @@
+import os
 import b
 
 print('Hello GIT !!!')
@@ -13,3 +14,8 @@ while ind <= 9:
         ind += 1
 
 print(b.any_func(2, sum))
+
+print(os.getcwd())
+
+s = 'Version Control System'
+print(f'{s} - length is {len(s)} characters')
